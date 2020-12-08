@@ -434,7 +434,7 @@ footer {
     width: 160px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 900px) {
   section {
     background-image: none;
     background-color: #f7f7f7;
@@ -445,6 +445,10 @@ footer {
   .toggle {
     display: block;
   }
+  .gmail {
+    display: none;
+  }
+
   .text-container p:nth-child(2) {
     line-height: 40px;
     margin: 0px;
